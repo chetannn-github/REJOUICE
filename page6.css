@@ -37,10 +37,23 @@
     display: flex;
     flex-wrap: nowrap;
     align-items: flex-end;
-    overflow: scroll;
+    /* overflow:hidden; */
     gap:20px;
+    position: relative;
+    width: fit-content;
 
-    transform: translate(0 , -40px);
+   
+    animation:  marquee  15s linear 0s infinite;
+}
+
+@keyframes marquee {
+
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-50% - 8px ));
+    }
 }
 
 #page6 #infinite .element{
