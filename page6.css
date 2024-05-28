@@ -42,6 +42,8 @@
     position: relative;
     width: fit-content;
 
+    /* background: #000; */
+
    
     animation:  marquee  15s linear 0s infinite;
 }
@@ -52,7 +54,7 @@
         transform: translateX(0);
     }
     100%{
-        transform: translateX(calc(-50% - 8px ));
+        transform: translateX(calc(-50% - 10px ));
     }
 }
 

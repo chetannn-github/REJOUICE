@@ -1,12 +1,13 @@
 #page5{
     
     width: 100%;
-    position: relative;
-
+    /* position: relative; */
+    /* background: #000; */
     display: flex;
     justify-content: center;
     align-items: center;
 
+    overflow: hidden;
 }
 
 #page5  video {
@@ -20,4 +21,10 @@
     z-index: 2;
     position: absolute;
     background: #000;
+}
+
+#page5 #playreel.take-one{
+    position: absolute;
+    top: 0;
+    left: 0;
 }
