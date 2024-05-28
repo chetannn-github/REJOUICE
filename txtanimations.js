@@ -14,7 +14,7 @@ tl.from("#txt-wrapper.one #slogan div p ,#txt-wrapper.one  #txt  div p",{
     y:100,
     stagger:0.2,
     scrollTrigger:{
-        markers:true,
+        
         scroller:"body",
         trigger:"#txt-wrapper.one #txt div",
         start:"top 85%",
@@ -31,7 +31,7 @@ tl.from("#txt-wrapper.two #slogan div p ,#txt-wrapper.two  #txt  div p",{
     y:100,
     stagger:0.2,
     scrollTrigger:{
-        markers:true,
+    
         scroller:"body",
         trigger:"#txt-wrapper.two #txt div",
         start:"top 85%",
@@ -48,7 +48,7 @@ tl.from("#txt-wrapper.three #slogan div p ,#txt-wrapper.three  #txt  div p",{
     y:100,
     stagger:0.2,
     scrollTrigger:{
-        markers:true,
+        
         scroller:"body",
         trigger:"#txt-wrapper.three #txt div",
         start:"top 85%",
