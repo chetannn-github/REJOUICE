@@ -10,7 +10,7 @@
 #txt-wrapper #slogan{
     height: 70px;
     /* background: #a49c9c; */
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(0, 0, 0);
     overflow: hidden;
     
 }

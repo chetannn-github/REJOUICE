@@ -1,0 +1,56 @@
+#page6{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    
+}
+
+#page6 #part-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    font-family: nb;
+    color: black;
+    margin: 0 40px;
+    padding-bottom: 10px;
+}
+
+
+#page6 #part-1 h1{
+    font-size: 120px;
+    font-weight: 500;
+    letter-spacing: -5px;
+    
+}
+
+
+#page6 #part-1 a{
+    align-self: flex-end;
+    margin-right: 20px;
+    font-size: 26px;
+    
+}
+
+
+#page6 #infinite{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    overflow: scroll;
+    gap:20px;
+
+    transform: translate(0 , -40px);
+}
+
+#page6 #infinite .element{
+    width: 350px;
+    flex-shrink: 0;
+    height: fit-content;
+}
+
+
+#page6 #infinite .element img{
+    width: 100%;
+    object-fit: cover;
+}
