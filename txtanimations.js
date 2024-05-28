@@ -1,5 +1,36 @@
 let tl = gsap.timeline();
 
+tl.from("#loader h2" , {
+    x:50,
+    opacity:0,
+    stagger:0.2
+})
+
+
+tl.to("#loader h2" , {
+    x:10,
+    opacity:0,
+    stagger:0.1
+})
+
+
+tl.to("#loader " , {
+    y:"-100%",
+    
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
 tl.from("#page1 #company-name span h1",{
     y:400,
     stagger:0.1
