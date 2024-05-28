@@ -60,3 +60,18 @@ tl.from("#txt-wrapper.three #slogan div p ,#txt-wrapper.three  #txt  div p",{
     
 });
 
+
+tl.from("#page3 h1",{
+    y:100, 
+    stagger: 0.2,
+    opacity: 0,
+    
+    scrollTrigger:{
+        scroller:"body",
+        trigger:"#page3",
+       
+        start:"top 100%",
+        end:"top 30%",
+        scrub:5
+    }
+})

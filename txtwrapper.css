@@ -1,9 +1,10 @@
 #txt-wrapper{
-    min-height: 100vh;
+    min-height: 85vh;
     width: 100vw;
     
     padding:  40px;
     color: rgb(0, 0, 0);
+    /* background: #9b6c6c; */
 }
 
 #txt-wrapper #slogan{

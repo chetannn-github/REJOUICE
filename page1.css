@@ -53,7 +53,7 @@ a{
     overflow: hidden;
 }
 
-#page1 #playreel {
+ #playreel {
     height: 130px;
     width: 130px;
     border-radius: 50%;
@@ -71,7 +71,7 @@ a{
 }
 
 
-#page1 #playreel h3 {
+ #playreel h3 {
     font-weight: 200;
 }
 #nav{

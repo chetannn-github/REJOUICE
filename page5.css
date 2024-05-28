@@ -1,0 +1,23 @@
+#page5{
+    
+    width: 100%;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#page5  video {
+    height: 100%;
+    width: 50%;
+    object-fit: cover;
+}
+
+
+#page5  img{
+    z-index: 2;
+    position: absolute;
+    background: #000;
+}
