@@ -5,6 +5,21 @@ tl.from("#page1 #company-name span h1",{
     stagger:0.1
 });
 
+tl.from("#footer #part2 #company-name span h1",{
+    y:-400,
+    stagger:0.1,
+    opacity:0,
+    scrollTrigger:{
+        trigger:"#footer",
+        scrub:4,
+        scroller:"body",
+        
+        start:"top: 0%",
+        end:"top 10%"
+
+    }
+
+});
 
 // tl.from("",{
 //     y:100
