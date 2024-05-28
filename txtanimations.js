@@ -6,20 +6,57 @@ tl.from("#page1 #company-name span h1",{
 });
 
 
-tl.from("#txt-wrapper.one #slogan div p",{
-    y:100
-});
+// tl.from("",{
+//     y:100
+// });
 
-tl.from("#txt-wrapper.one  #txt  div p",{
+tl.from("#txt-wrapper.one #slogan div p ,#txt-wrapper.one  #txt  div p",{
     y:100,
-    stagger:0.1,
+    stagger:0.2,
     scrollTrigger:{
         markers:true,
-        scroller:"#main",
-        trigger:"#txt-wrapper.one  #txt",
-        top:"top 100vh",
-        end:"top 50vh",
+        scroller:"body",
+        trigger:"#txt-wrapper.one #txt div",
+        start:"top 85%",
+        end:"top 35%",
+        scrub:3
+        
+
     }
+    
 });
 
+
+tl.from("#txt-wrapper.two #slogan div p ,#txt-wrapper.two  #txt  div p",{
+    y:100,
+    stagger:0.2,
+    scrollTrigger:{
+        markers:true,
+        scroller:"body",
+        trigger:"#txt-wrapper.two #txt div",
+        start:"top 85%",
+        end:"top 35%",
+        scrub:3
+        
+
+    }
+    
+});
+
+
+tl.from("#txt-wrapper.three #slogan div p ,#txt-wrapper.three  #txt  div p",{
+    y:100,
+    stagger:0.2,
+    scrollTrigger:{
+        markers:true,
+        scroller:"body",
+        trigger:"#txt-wrapper.three #txt div",
+        start:"top 85%",
+        end:"top 35%",
+        scrub:3
+        
+
+    }
+    
+});
 
