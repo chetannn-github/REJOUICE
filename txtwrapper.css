@@ -1,5 +1,5 @@
 #txt-wrapper{
-    min-height: 80vh;
+    max-height: 80vh;
     width: 100vw;
     
     padding:  40px;
@@ -51,7 +51,7 @@
 
 @media (max-width: 768px) {
     #txt-wrapper{
-        max-height: 20%;
+        max-height: 50vh;
         width: 100vw;
         
         padding: 10px;
@@ -60,10 +60,28 @@
     }
 
 
+    #txt-wrapper #slogan{
+        height: 40px;
+        /* background: #a49c9c; */
+        border-bottom: 1px solid rgb(0, 0, 0);
+        overflow: hidden;
+        
+    }
+
+
 
 
    #txt-wrapper #slogan p{
     font-size: 15px;
+
+
+    #txt-wrapper #txt div {
+        height: fit-content;
+        margin-bottom: 3px;
+        overflow: hidden;
+        /* background: #614b4b; */
+    }
+    
 }
 }
 
