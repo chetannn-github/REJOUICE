@@ -16,21 +16,22 @@
     <link rel="stylesheet" href="page6.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="loader.css">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
     
 
     <title>Home | REJOUICE®</title>
 </head>
 <body>
-    <div id="loader">
+    
+    <div id="main" data-scroll-container>
+        <div id="loader">
         <h2>Tomorrow’s</h2>
         <h2>Brand</h2>
-        <h2>Today</h2>
+        <h2>Today™</h2>
 
 
     </div>
-    <div id="main">
-        <div id="page1">
+        <div id="page1" data-scroll-section>
             <div id="playreel">
                 <h3>Play Reel</h3>
             </div>
@@ -43,11 +44,11 @@
                 </div>
             </div>
     
-            <div id="video">
+            <div id="video" data-scroll data-scroll-speed="-2">
                 <video  autoplay muted loop src="https://prismic-io.s3.amazonaws.com/rejouice/658ef98d531ac2845a270509_RJ-2-0-Videobackground_compressed.mp4"></video>
             </div>
 
-            <div id="company-name">
+            <div id="company-name" data-scroll data-scroll-speed="2">
                 <span><h1>R</h1></span>
                 <span><h1>E</h1></span>
                 <span><h1>J</h1></span>
@@ -59,7 +60,7 @@
             </div>
         </div>
 
-        <div id="txt-wrapper" class="one">
+        <div id="txt-wrapper"  data-scroll-section class="one">
             <div id="slogan" class="spacebtw">
                <div> <p>Tomorrow’s Brands, Today™</p></div>
                <div> <p> Paris / San Diego</p></div>
@@ -76,13 +77,13 @@
             
         </div>
         
-        <div id="page3">
-                <h3>Agency & Venture <span>Models</span> ↵</h3>
-                <h1>Explore our services</h1>
-                <h1>and engagement models</h1>
+        <div id="page3" data-scroll-section>
+                <h3 data-scroll data-scroll-speed="2">Agency & Venture <span>Models</span> ↵</h3>
+                <h1 data-scroll data-scroll-speed="2">Explore our services</h1>
+                <h1 data-scroll data-scroll-speed="2">and engagement models</h1>
         </div>
 
-        <div id="page4">
+        <div id="page4" data-scroll-section>
             <div id="txt">
                 <p>Transforming visions into brands.</p>
                 <a href="#">
@@ -105,7 +106,7 @@
             </div>
         </div>
 
-        <div id="txt-wrapper" class="two">
+        <div id="txt-wrapper"  data-scroll-section class="two">
             <div id="slogan">
               
               <div>  <p> We operate on a simple philosophy:</p></div>
@@ -125,13 +126,13 @@
             </div>    
         </div>
 
-        <div id="page5">
+        <div id="page5" data-scroll-section>
             <video src="https://www.rejouice.com/assets/videos/RJ-BALL-BLUE-ORANGE-scaled.webm" autoplay muted loop></video>
             <div id="playreel" class="take-one">
                 <h3>Take One</h3>
             </div>
         </div>
-        <div id="txt-wrapper" class="three">
+        <div id="txt-wrapper" data-scroll-section class="three">
             <div id="slogan">
                <div> <p>Strategy & emotion.</div>
                <div> <p>You need both. </p></div>
@@ -148,7 +149,7 @@
             </div>    
         </div>
 
-        <div id="page6">
+        <div id="page6" data-scroll-section >
             <div id="part-1">
                 <h1>Get in touch.</h1>
                 <a href="#">Contact us </a>
@@ -190,18 +191,18 @@
 
         </div>
 
-        <div id="page3">
+        <div id="page3" data-scroll-section  >
 
 
-            <h3>We're uniquely built  ↵</h3>
+            <h3 data-scroll data-scroll-speed="2">We're uniquely built  ↵</h3>
             
-            <h1>About us</h1>
+            <h1 data-scroll data-scroll-speed="2">About us</h1>
     
     
         </div>
 
-        <div id="footer">
-            <div id="part1">
+        <div id="footer"  data-scroll-section >
+            <div id="part1"  data-scroll data-scroll-speed="-2">
                 <div id="left">
                     <h3>Relax. We've got you.</h3>
                     <a href="#">Take a seat</a>
@@ -224,7 +225,7 @@
                     </div>
                 </div>
             </div>
-            <div id="part2">
+            <div id="part2" data-scroll data-scroll-speed="-2">
                 <div id="copyright">
                     <h1>San Diego—California <br>Paris—France</h1>
                     <div id="section2"><h3> biz@rejouice.com</h3> <p>©2023 legal</p></div> 
@@ -246,8 +247,17 @@
     
 
 </body>
+
+<script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+
+
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
 <script src="./cursorFollower.js"></script>
+<script src="./loco.js"></script>
 <script src="./txtanimations.js"></script>
+
 </html>

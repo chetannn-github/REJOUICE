@@ -8,9 +8,9 @@
     src: url(./fonts/Rejouice-Headline.woff2) ;
   }
  
-*::-webkit-scrollbar {
+/* *::-webkit-scrollbar {
     display: none;
-  }
+  } */
 
 *{
     -webkit-user-select: none; /* Safari */
@@ -39,12 +39,6 @@ a{
     color: black;
 }
 
-#main{
-  height: fit-content;
-    width: 100vw;
-    position: relative;
-    overflow: hidden;
-}
 
 #page1{
     height: 100vh;

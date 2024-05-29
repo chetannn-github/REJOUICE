@@ -9,6 +9,7 @@
     flex-direction: column;
     justify-content: space-between;
 
+    overflow: hidden;
     padding: 40px;
 
 }

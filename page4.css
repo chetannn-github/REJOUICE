@@ -4,6 +4,7 @@
     /* background-color: aqua;    */
     padding: 40px;
     color: black;
+    overflow: hidden;
 }
 
 #page4 #txt {
