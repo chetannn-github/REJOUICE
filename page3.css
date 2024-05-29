@@ -28,7 +28,24 @@
 
 
 #page3 h1{
-    font-size:70px;
+    font-size:6vw;
     font-weight: 300;
     text-decoration:4px underline;
+}
+
+
+
+@media (max-width: 768px) {
+    #page3 h1{
+        font-size:7vw;
+        text-decoration:2px underline;
+        
+    }
+
+    #page3 h3{
+        font-size: 15px;
+        font-weight:400;
+        margin-bottom: 20px;
+    }
+    
 }

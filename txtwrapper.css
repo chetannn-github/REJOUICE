@@ -1,5 +1,5 @@
 #txt-wrapper{
-    min-height: 85vh;
+    min-height: 80vh;
     width: 100vw;
     
     padding:  40px;
@@ -26,7 +26,7 @@
 }
 
 #txt-wrapper #slogan p{
-    font-size: 1.65vw;
+    font-size: 20px;
 }
 
 #txt-wrapper #txt div {
@@ -44,4 +44,26 @@
 
 #txt-wrapper #txt p{
     font-size: 4.1vw;
+    text-align: center;
 }
+
+
+
+@media (max-width: 768px) {
+    #txt-wrapper{
+        max-height: 20%;
+        width: 100vw;
+        
+        padding: 10px;
+        color: rgb(0, 0, 0);
+        /* background: #9b6c6c; */
+    }
+
+
+
+
+   #txt-wrapper #slogan p{
+    font-size: 15px;
+}
+}
+

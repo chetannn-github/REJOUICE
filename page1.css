@@ -122,14 +122,14 @@ video{
     
     
 
-    /* background: #000; */
+    /* background: #693232; */
 
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-
+    align-items: flex-end;
+    justify-content: center;
+    gap: 5px;
     width: 100%;
-    padding:  200px 50px;
+    
 
 }
 
@@ -138,6 +138,8 @@ video{
     z-index: 2;
     color: white;
     overflow: hidden;
+
+    /* background: #000; */
     
 }
 
@@ -146,3 +148,20 @@ video{
     font-size: 26vw;
     font-weight: 400;
 }
+
+
+
+
+
+@media (max-width: 768px) {
+    #nav h3 {
+        font-size: 20px;
+    }
+
+    #playreel {
+        display: none;
+        
+    }
+}
+
+

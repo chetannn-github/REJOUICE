@@ -28,6 +28,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 10px;
 }
 
 #page4 #cards .card{
@@ -64,3 +65,72 @@
 #page4 #cards .card:hover video {
     z-index: 3;
 }
+
+
+@media (max-width: 768px) {
+    #page4{
+    
+        padding: 10px;
+        color: black;
+    }
+
+
+    #page4 #txt p{
+        font-size: 20px
+    }
+    
+    #page4 #txt a{
+        font-size: 16px
+    }
+
+
+  #page4 #cards .card{
+    height: 300px;
+    
+    position: relative;
+    
+
+}
+}
+
+
+@media (max-width: 425px) {
+    #page4{
+    
+        padding: 10px;
+        color: black;
+    }
+
+
+    #page4 #txt p{
+        font-size: 4vw
+    }
+    
+    #page4 #txt a{
+        font-size: 13px
+    }
+
+
+
+
+    #page4 #cards{
+        /* background-color: beige; */
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+    }
+
+  #page4 #cards .card{
+    
+    width: 100%;
+    
+    position: relative;
+    
+
+}
+}
+
+

@@ -51,10 +51,10 @@
 @keyframes marquee {
 
     0%{
-        transform: translate(0, -90px);
+        transform: translate(0, );
     }
     100%{
-        transform: translate(calc(-50% - 10px ) , -90px);
+        transform: translate(calc(-50% - 10px ) );
     }
 }
 
@@ -69,3 +69,70 @@
     width: 100%;
     object-fit: cover;
 }
+
+
+
+@media (max-width: 768px) {
+
+    #page6{
+        height: 70vh;
+        width: 100%;
+        position: relative;
+        
+    }
+    #page6 #part-1 h1{
+        font-size: 70px;
+    
+        
+    }
+
+    #page6 #part-1 a{
+        align-self: flex-end;
+        margin-right: 20px;
+        font-size: 19px;
+        
+    }
+    
+
+    #page6 #infinite .element{
+        width: 200px;
+        flex-shrink: 0;
+        height: fit-content;
+    }
+    
+    
+}
+
+
+@media (max-width: 425px) {
+
+    #page6{
+        height: 50vh;
+        width: 100%;
+        position: relative;
+        
+    }
+    #page6 #part-1 h1{
+        font-size: 50px;
+    
+        
+    }
+
+    #page6 #part-1 a{
+        align-self: flex-end;
+        margin-right: 20px;
+        font-size: 19px;
+        
+    }
+    
+
+    #page6 #infinite .element{
+        width: 200px;
+        flex-shrink: 0;
+        height: fit-content;
+    }
+    
+    
+}
+
+
