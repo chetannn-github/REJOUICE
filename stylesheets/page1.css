@@ -1,16 +1,20 @@
 @font-face {
     font-family: 'nb';
-    src: url(./fonts/NBInternationalProBoo.woff2) ;
+    src: url(../fonts/NBInternationalProBoo.woff2) ;
   }
 
 @font-face {
     font-family: 'rj';
-    src: url(./fonts/Rejouice-Headline.woff2) ;
+    src: url(../fonts/Rejouice-Headline.woff2) ;
   }
  
 /* *::-webkit-scrollbar {
     display: none;
   } */
+
+  #main{
+    overflow: hidden;
+  }
 
 *{
     -webkit-user-select: none; /* Safari */
