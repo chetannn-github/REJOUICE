@@ -147,7 +147,7 @@
     
 
     #footer #part2 #copyright p {
-        font-size: 7px;
+        font-size: 10px;
     }
     #footer #part2 #copyright #section2{
        
@@ -168,37 +168,4 @@
 @media (max-width: 450px) {
    
 
-    #footer #part1 #left a{
-        
-        padding: 10px 15px;
-        
-    }
-
-    #footer #part1 {
-        height: 30%;
-        width: 100%;
-        position: relative;
-    
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    
-        /* background: #4d328b; */
-    
-        
-    }
-    
-
-    #footer #part1 #left h3{
-        font-size: 16px;
-        
-        
-    }
-
-    
-#footer #part1 #right  #section1 a ,#footer #part1 #right  #section2 a{
-   font-size: 9px;
-}
-    
-    
 }
