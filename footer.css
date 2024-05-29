@@ -59,6 +59,8 @@
     display: flex;
     justify-content: space-between;
     align-items: start;
+
+    gap: 20px;
 }
 
 #footer #part1 #right  #section1 , #footer #part1 #right  #section2{
