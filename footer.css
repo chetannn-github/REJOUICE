@@ -81,7 +81,7 @@
 
 
 #footer #part2 {
-    height: 70%;
+    height: 60%;
     width: 100%;
     position: relative;
 
@@ -166,6 +166,16 @@
 
 
 @media (max-width: 450px) {
-   
+    #footer #part2 {
+        height: 50%;
+        
+    }  
+
+    #footer{
+        height: 90vh;
+       
+    
+    }
+    
 
 }

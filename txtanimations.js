@@ -44,8 +44,8 @@ tl.from("#footer #part2 #company-name span h1",{
         trigger:"#footer",
         scrub:4,
         scroller:"body",
-        
-        start:"top: 0%",
+        // markers:true,
+        start:"top: 20%",
         end:"top 10%"
 
     }
