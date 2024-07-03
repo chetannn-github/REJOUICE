@@ -14,7 +14,7 @@ A simple clone of the REJOUICE agency landing page using HTML, CSS, JavaScript, 
 
 Clone the repo:
    ```bash
-   git clone https://github.com/your-username/rejouice-clone.git
+   git clone https://github.com/chetannn-github/rejouice-clone.git
    ```
 ## Usage
 Simply open the index.html file in your browser to view and interact with the REJOUICE clone.
