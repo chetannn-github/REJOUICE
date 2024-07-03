@@ -2,7 +2,7 @@
     height: 60vh;
     width: 100%;
     position: relative;
-    
+    /* background: #000; */
 }
 
 #page6 #part-1{
@@ -43,7 +43,7 @@
     width: fit-content;
 
     /* background: #000; */
-
+    /* transform: skewY(-3deg); */
    
     animation:  marquee  15s linear 0s infinite;
 }
@@ -51,13 +51,12 @@
 @keyframes marquee {
 
     0%{
-        transform: translate(0, );
+        transform: translate(0);
     }
     100%{
-        transform: translate(calc(-50% - 10px ) );
-    }
+        transform: translate(calc(-50% - 10px ));
 }
-
+}
 #page6 #infinite .element{
     width: 350px;
     flex-shrink: 0;
